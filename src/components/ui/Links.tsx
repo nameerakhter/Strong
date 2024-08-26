@@ -1,12 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Highlighter from './Highlighter'
 
 const Links = ({text, href}:{text:string, href:string}) => {
+  const [hover, setHover] = useState(false)
   return (
-    <div className='text-xl relative inline-block'>
-        <a href={href} className='p-2'>{text}</a>
-        {/* <div className=' hover:underline bg-gradient-to-r from-[#d80b15] to-[#ce4a17] w-[4rem] h-[1rem]'></div> */}
-        <Highlighter />
+    <div className='text-xl relative inline-block' onMouseEnter={() => setHover(true)}
+    onMouseLeave={() => setHover(false)}>
+        <a href={href} className='relative z-10 inline-block'>{text}</a>
+        {hover && (<Highlighter />)}
+        
     </div>
   )
 }
