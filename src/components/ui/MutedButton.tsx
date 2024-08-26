@@ -1,9 +1,9 @@
 import React from 'react'
 
-const MutedButton = () => {
+const MutedButton = ({text}:{text: String}) => {
   return (
-    <button className='border-[#a14219] bg-[#1d1d1d] border-2 px-[1rem] py-[.5rem] rounded-full text-xl'>
-        <div className='rounded-xl'>Button</div>
+    <button className='border-[#a14219] bg-[#1d1d1d] border-2 px-[1rem] py-[.5rem] rounded-full text-xl m-[1rem]'>
+        <div className='rounded-xl'>{text}</div>
     </button>
   )
 }
