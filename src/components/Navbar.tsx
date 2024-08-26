@@ -21,8 +21,13 @@ const Navbar = () => {
             </div>
             <section className='w-3/5'>
             <div className='flex item-center justify-center gap-[5rem]'>
+                <div>
                <Links href='' text="Home" />
+                </div>
+                <div>
                <Links href='' text="Programs" />
+
+                </div>
                <Links href='' text="Coaching" />
                <Links href='' text="Membership" />
             </div>
