@@ -2,6 +2,7 @@ import React from 'react'
 import MutedButton from './ui/MutedButton'
 import Button from "@/components/ui/Button";
 import { VscSearch } from "react-icons/vsc";
+import Links from './ui/Links';
 
 
 const Navbar = () => {
@@ -20,11 +21,14 @@ const Navbar = () => {
             </div>
             <section className='w-3/5'>
             <div className='flex item-center justify-center gap-[5rem]'>
-                <a href="">Home</a><a href="">Programs</a><a href="">Coaching</a><a href="">membership</a>
+               <Links href='' text="Home" />
+               <Links href='' text="Programs" />
+               <Links href='' text="Coaching" />
+               <Links href='' text="Membership" />
             </div>
             </section>
             
-            <section className='w-1/4 absolute right-0'>
+            <section className='w-1/5 absolute right-0'>
             <MutedButton text={"Login"}/>
             <Button text={"Signup"} />
             </section>
