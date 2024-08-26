@@ -1,12 +1,15 @@
 import React from 'react'
 
-const Labels = ({text1, text2}:{text1:string,text2:string}) => {
+const Labels = ({text1, text2, text3, colorT1}:{text1:string,text2:string, text3:string,colorT1:string}) => {
   return (
+    <div className='flex flex-col items-center justify-center w-full relative mt-[4rem]'>
+      <div className='flex items-center justify-center'>
+      <p className={`text-4xl pr-[1rem] ${colorT1} font-extrabold`}>{text1}</p><p>{text2}</p>
+      </div>
+      <p className='text-sm text-[#6e6868]'>{text3}</p>
+      <div className='absolute bg-gradient-to-r from-[#d80b15] to-[#ce4a17] w-[.2rem] h-[5rem]  rounded-full right-0'></div>
 
-    <button className={`relative border-[#a14219] bg-[#1d1d1d] border-2 px-[1.2rem] py-[.5rem] rounded-3xl m-[1rem]`}>
-        <div className='rounded-xl text-xl mb-[.5rem] text-wrap'>{text1}</div>
-        <p className='rounded-xl text-xs text-wrap'>{text2}</p>
-    </button>
+    </div>
   )
 }
 export default Labels
