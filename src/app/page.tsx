@@ -11,7 +11,7 @@ export default function Home() {
     <div className="bg-[#1D1D1D] min-h-screen">
       <Navbar/>
       <Hero />
-      <Highlights />
+      {/* <Highlights /> */}
     </div>
   );
 }
