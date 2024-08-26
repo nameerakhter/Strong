@@ -11,7 +11,7 @@ const Navbar = () => {
             <section className='w-1/5 absolute left-0 ml-[1rem]'>
                 <div  className='flex items-center gap-2 mb-1'>
                 <div className='bg-red-700 rounded-lg w-[3rem] h-[2rem]'></div>
-                <p>Fit </p><p className='text-[#1d1d1d]'>&</p> <p className='text-[#d80b15] text-xl capitalize'>Strong</p>
+                <p>Fit </p><p className='text-[#494646]'>&</p> <p className='text-[#d80b15] text-xl capitalize'>Strong</p>
                 </div>
                 <p>Transform your body</p>
 

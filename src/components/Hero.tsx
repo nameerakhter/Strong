@@ -6,9 +6,10 @@ import Labels from './ui/Labels'
 
 const Hero = () => {
     return (
-        <div className='flex items-center justify-center'>
-            <section className='w-1/2 ml-[2rem] flex flex-col items-center '>
-                <div className='text-wrap pl-[1rem]'>
+        <div className='flex items-center justify-center   overflow-hidden'>
+            <div className='absolute drop-shadow-3xl rounded-full w-[10rem] h-[20rem] bg-[#482415] blur-2xl -left-20'></div>
+            <section className=' relative w-1/2 ml-[2rem]  '>
+                <div className='text-wrap pl-[1rem] flex flex-col items-center'>
                     <h2 className='text-2xl'> Achieve Your</h2>
                     <h1 className='text-8xl font-extrabold text-gradient'>Fitness Goals</h1>
                     <h2 className='text-2xl mb-[1rem]'>with the best in Industry</h2>
@@ -16,8 +17,8 @@ const Hero = () => {
                 </div>
 
                 <div className='flex items-center justify-center w-full'>
-                    <section className='w-1/2'><Button text="Start your journey" w="full" /></section>
-                    <section className='w-1/2'><MutedButton text="Explore Programs" w="full" /></section>
+                    <section className='w-1/2 '><Button text="Start your journey" w="full" /></section>
+                    <section className='w-1/2 drop-shadow-3xl'><MutedButton text="Explore Programs" w="full" /></section>
                 </div>
 
 
