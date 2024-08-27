@@ -9,11 +9,11 @@ const Services = () => {
         <h1 className='text-[#c60811]'>Services</h1>
       </div>
       <div className='flex items-center justify-center gap-[2rem]'>
-        <section className='w-1/4'><ServiceCard /></section>
-        <section className='w-1/4'><ServiceCard /></section>
-        <section className='w-1/4'><ServiceCard /></section>
-        <section className='w-1/4'><ServiceCard /></section>
-
+        <section className='w-1/4'><ServiceCard h1='Lose Weight' p1='Click to join our Weight loss Programs' p2='Acheive Sustainaable wieght loss with your....' imgSrc="/assets/Trainers/trainer1.png" /></section>
+        {/* <section className='w-1/4'><ServiceCard /></section> */}
+        {/* <section className='w-1/4'><ServiceCard /></section> */}
+        {/* <section className='w-1/4'><ServiceCard /></section> */}
+        {/**/}
 
       </div>
     </div>
