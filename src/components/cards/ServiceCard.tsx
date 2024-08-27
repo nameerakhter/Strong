@@ -12,7 +12,7 @@ const ServiceCard = () => {
 
         </div>
         <div className='blur-2xl bg-[#5e0c0f] '>
-          <Image src="" alt='' />
+          <Image src="/assets/trainer.png" alt='demo' />
         </div>
 
       </div>
