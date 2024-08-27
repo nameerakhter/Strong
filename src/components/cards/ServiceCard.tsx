@@ -3,7 +3,7 @@ import React from 'react'
 
 const ServiceCard = () => {
   return (
-    <div className='bg-red-500 rounded-xl w-[20rem]'>
+    <div className='bg-[#1D1D1D] border rounded-xl w-[20rem] p-[2rem]'>
       <div className=' flex items-center jsutify-center'>
         <div>
           <h1>Lose Weight</h1>
@@ -11,8 +11,8 @@ const ServiceCard = () => {
           <p>Acheive Sustainaable wieght loss with your....</p>
 
         </div>
-        <div className='blur-2xl bg-[#5e0c0f] '>
-          <Image src="/assets/trainer.png" alt='demo' />
+        <div className=''>
+          <Image src="/assets/Trainers/person3.png" alt='demo' width={800} height={800} />
         </div>
 
       </div>
