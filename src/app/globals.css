@@ -33,9 +33,19 @@ body {
 }
 
 --------------------------------------
-
+@property --rotate{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
 .button{
-  color: #d90a14 !important
+ padding: 1rem .5rem !important; 
+}
+
+@keyframes rotate{
+to{
+  --rotate: 360deg;
+}
 }
 
 /* styles.css */
