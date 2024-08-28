@@ -3,19 +3,22 @@ import React from 'react'
 
 const ServiceCard = ({ h1, p1, p2, imgSrc }: { h1: string, p1: string, p2: string, imgSrc: string }) => {
   return (
-    <div className='bg-[#1D1D1D] border rounded-xl w-[20rem]  pl-[2rem]'>
-      <div className=' flex items-center jsutify-center'>
-        <div>
-          <h1>{h1}</h1>
-          <p>{p1}</p>
-          <p>{p2}</p>
-
+    <div className='bg-[#1D1D1D]  rounded-xl flex items-center w-[22rem] h-[20rem]  pl-[1rem]'>
+      <section className='w-1/2 h-full'>
+        <div className=' flex items-center jsutify-center'>
+          <div className='flex flex-col items-start justify-self-auto'>
+            <h1 className='text-[#c60811] text-4xl font-extrabold m-[1rem]'>{h1}</h1>
+            <p className='text-sm text-white py-[1rem]'>{p1}</p>
+            <p className='text-xs text-white'>{p2}</p>
+          </div>
         </div>
-        <div className='right-0'>
-          <Image src={imgSrc} alt='demo' width={800} height={500} />
+      </section>
+      <section className='w-1/2 h-full'>
+        <div className='relative w-full h-full'>
+          <Image src={imgSrc} alt="demo" layout="fill" objectFit="cover" className="rounded-xl" />
         </div>
 
-      </div>
+      </section>
     </div>
   )
 }
