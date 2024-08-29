@@ -1,0 +1,46 @@
+[
+  {
+    "plan": "ProPlan",
+    "description": "Our Pro Plan offers advanced workouts and personalized nutrition coaching to help you reach your goals faster. Sign Up Right Now!",
+    "features": [
+      "Access to all of our Exercise Videos",
+      "Progress Tracking",
+      "Supportive Online Community",
+      "Advanced personalized workout Plans",
+      "Comprehensive nutrition coaching",
+      "Access to Advanced Analysis",
+      "Body Composition Analysis"
+    ],
+    "price": "99",
+    "currency": "USD"
+  },
+  {
+    "plan": "CustomPlan",
+    "description": "Experience a fully tailored fitness experience with our Custom Plan. Work one-on-one with a dedicated trainer to achieve your goals.",
+    "features": [
+      "Access to all of our Exercise Videos",
+      "Progress Tracking",
+      "Supportive Online Community",
+      "Fully Customized Workout and nutrition Plan",
+      "Weekly Check-Ins With your Trainer",
+      "Access to All Platform Features",
+      "Exclusive Gear Discounts"
+    ],
+    "price": "149",
+    "currency": "USD"
+  },
+  {
+    "plan": "Begginer Plan",
+    "description": "The Basic Plan provides essential workouts and diet plans for beginners. Join us and start your fitness journey today!",
+    "features": [
+      "Access to all of our Exercise Videos",
+      "ProgressTracking",
+      "Supportive Online Community",
+      "Personalized workout Plans",
+      "Basic nutrition Guidance",
+      "Access To Group Fitness classes"
+    ],
+    "price": "49",
+    "currency": "USD"
+  }
+]

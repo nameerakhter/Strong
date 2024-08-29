@@ -1,6 +1,14 @@
 import React from 'react'
 import PricingCard from './cards/PricingCard'
+import pricingData from '../pricingData.json'
 
+interface PricingData {
+  plan: string;
+  description: string;
+  features: string[];
+  price: string;
+  currency: string;
+}
 
 
 const Plans = () => {
@@ -16,9 +24,18 @@ const Plans = () => {
         <p className='pb-[2rem]'>Select the plan that suits your fitness foals and let our expert coaches huide you every step of the way</p>
         <div className='relative flex items-center justify-center gap-[2rem]'>
 
-          <section className='w-1/4'><PricingCard /></section>
-          <section className='w-1/4'><PricingCard /></section>
-          <section className='w-1/4'><PricingCard /></section>
+          {pricingData.map((plan: PricingData, index: number) => (
+            <section key={index} className='w-1/4'>
+              <PricingCard
+                plan={plan.plan}
+                description={plan.description}
+                features={plan.features}
+                price={plan.price}
+                currency={plan.currency}
+              />
+
+            </section>
+          ))}
 
 
         </div>
