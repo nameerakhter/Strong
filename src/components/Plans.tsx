@@ -19,7 +19,7 @@ const Plans = () => {
 
         <div className='text-4xl p-[2rem] flex items-center jsutify-center gap-3'>
           <h1 className='font-extrabold'>Our</h1>
-          <h1 className='text-[#c60811] font-extrabold'>Services</h1>
+          <h1 className='text-[#c60811] font-extrabold'>Plans</h1>
         </div>
         <p className='pb-[2rem]'>Select the plan that suits your fitness foals and let our expert coaches huide you every step of the way</p>
         <div className='relative flex items-center justify-center gap-[2rem]'>

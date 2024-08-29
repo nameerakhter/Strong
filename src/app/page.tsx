@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import Services from "@/components/Services";
 import Plans from "@/components/Plans"
+import Tools from "@/components/Tools";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <Highlights />
       <Services />
       <Plans />
+      <Tools />
+
 
     </div>
   );
