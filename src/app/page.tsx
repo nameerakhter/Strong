@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
-import ServiceCard from "@/components/cards/ServiceCard";
 import Services from "@/components/Services";
+import Plans from "@/components/Plans"
 
 export default function Home() {
   return (
@@ -11,7 +11,8 @@ export default function Home() {
       <Hero />
       <Highlights />
       <Services />
- 
+      <Plans />
+
     </div>
   );
 }
