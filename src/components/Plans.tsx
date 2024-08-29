@@ -13,10 +13,9 @@ const Plans = () => {
           <h1 className='font-extrabold'>Our</h1>
           <h1 className='text-[#c60811] font-extrabold'>Services</h1>
         </div>
-        <p>Select the plan that suits your fitness foals and let our expert coaches huide you every step of the way</p>
+        <p className='pb-[2rem]'>Select the plan that suits your fitness foals and let our expert coaches huide you every step of the way</p>
         <div className='relative flex items-center justify-center gap-[2rem]'>
 
-          <section className='w-1/4'><PricingCard /></section>
           <section className='w-1/4'><PricingCard /></section>
           <section className='w-1/4'><PricingCard /></section>
           <section className='w-1/4'><PricingCard /></section>
