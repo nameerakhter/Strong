@@ -5,7 +5,7 @@ const ToolCard = () => {
   return (
     <div className='flex flex-col items-center h-[20rem] w-[20rem] border rounded-2xl relative  bg-[#1D1D1D]'>
       {/* Backdrop Image */}
-      <div className='relative w-[20rem] h-[15rem] '>
+      <div className='relative w-full h-[15rem] '>
         <Image
           src='/assets/Icons/Ellipse 8.png'
           alt='backdrop'
