@@ -1,32 +1,32 @@
 import Image from 'next/image';
 import React from 'react';
 
-const ToolCard = () => {
+const ToolCard = ({ toolImg, toolName }: { toolImg: string, toolName: string }) => {
   return (
-    <div className='flex flex-col items-center h-[20rem] w-[20rem] border rounded-2xl relative  bg-[#1D1D1D]'>
+    <div className='flex flex-col items-center h-[18rem] w-[15rem] rounded-2xl relative  bg-[#1D1D1D]'>
       {/* Backdrop Image */}
       <div className='relative w-full h-[15rem] '>
         <Image
-          src='/assets/Icons/Ellipse 8.png'
+          src='/assets/Icons/ellipse yellow.png'
           alt='backdrop'
-          layout='fill'
-          objectFit='cover'
+          width={400}
+          height={400}
         />
       </div>
 
       {/* Icon */}
       <div className='absolute pt-[5rem] flex flex-col items-center justify-center w-[10rem] h-[6rem]'>
         <Image
-          src='/assets/Icons/bmiCalc.png'
-          alt='bmi'
+          src={toolImg}
+          alt='tool'
           width={200}
           height={200}
-          objectFit='contain'
+          className='bg-cover relative top-10'
         />
+        <h1 className=' pt-[3rem] relative top-10 text-2xl text-nowrap font-extrabold '>{toolName}</h1>
       </div>
 
       {/* Heading */}
-      <h1 className=' text-3xl font-extrabold '>BMI Calculator</h1>
     </div>
   );
 };

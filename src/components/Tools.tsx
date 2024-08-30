@@ -11,7 +11,12 @@ const Tools = () => {
         <h1 className='font-extrabold'>Our</h1>
         <h1 className='text-[#c60811] font-extrabold'>Fitness Tools</h1>
       </div>
+      <p className='text-nowrap pb-[1rem]'>Access a variety of tools to help you reach your fitness goals more effectively</p>
       <div className='relative flex items-center justify-center gap-[2rem]'>
+        <section className='w-1/4'><ToolCard toolImg='/assets/Icons/bmiCalc.png' toolName='BMI Calculator' /></section>
+        <section className='w-1/4'><ToolCard toolImg='/assets/Icons/goalCalc.png' toolName='Goal Calculator' /></section>
+        <section className='w-1/4'><ToolCard toolImg='/assets/Icons/macroCalc.png' toolName='Macro Claculator' /></section>
+        <section className='w-1/4'><ToolCard toolImg='/assets/Icons/waterIntakeCalc.png' toolName='WaterIntake Calc' /></section>
       </div>
     </div>
 
