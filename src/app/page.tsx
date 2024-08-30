@@ -4,6 +4,7 @@ import Highlights from "@/components/Highlights";
 import Services from "@/components/Services";
 import Plans from "@/components/Plans"
 import Tools from "@/components/Tools";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Plans />
       <Tools />
+      <Reviews />
 
 
     </div>
