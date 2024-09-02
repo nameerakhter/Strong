@@ -6,6 +6,7 @@ import Plans from "@/components/Plans"
 import Tools from "@/components/Tools";
 import Reviews from "@/components/Reviews";
 import Trainers from "@/components/Trainers";
+import BlogPost from "@/components/BlogPost";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Tools />
       <Reviews />
       <Trainers />
+      <BlogPost />
 
 
     </div>
