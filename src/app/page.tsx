@@ -7,6 +7,7 @@ import Tools from "@/components/Tools";
 import Reviews from "@/components/Reviews";
 import Trainers from "@/components/Trainers";
 import BlogPost from "@/components/BlogPost";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       <Reviews />
       <Trainers />
       <BlogPost />
+      <Footer />
+
 
 
     </div>
