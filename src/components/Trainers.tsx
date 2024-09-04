@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import TrainerCard from './cards/TrainerCard'
+import { BorderBeam } from './magicui/border-beam'
 
 const Trainers = () => {
   return (
@@ -13,10 +14,22 @@ const Trainers = () => {
       </div>
       <div className='relative flex items-center justify-center gap-[2rem]'>
 
-        <section className='w-1/4'><TrainerCard trainerImg='/assets/Trainers/pt1.png' trainerName='Peter' /></section>
-        <section className='w-1/4'><TrainerCard trainerImg='/assets/Trainers/pt2.png' trainerName='Peter' /></section>
-        <section className='w-1/4'><TrainerCard trainerImg='/assets/Trainers/pt3.png' trainerName='Peter' /></section>
-        <section className='w-1/4'><TrainerCard trainerImg='/assets/Trainers/pt4.png' trainerName='Peter' /></section>
+        <section className='relative rounded-xl w-1/4'>
+          <TrainerCard trainerImg='/assets/Trainers/pt1.png' trainerName='Peter' />
+          <BorderBeam size={250} duration={5} delay={9} />
+        </section>
+        <section className='relative rounded-xl w-1/4'>
+          <TrainerCard trainerImg='/assets/Trainers/pt2.png' trainerName='Peter' />
+          <BorderBeam size={250} duration={5} delay={9} />
+        </section>
+        <section className='relative rounded-xl w-1/4'>
+          <TrainerCard trainerImg='/assets/Trainers/pt3.png' trainerName='Peter' />
+          <BorderBeam size={250} duration={5} delay={9} />
+        </section>
+        <section className='relative rounded-xl w-1/4'>
+          <TrainerCard trainerImg='/assets/Trainers/pt4.png' trainerName='Peter' />
+          <BorderBeam size={250} duration={5} delay={9} />
+        </section>
 
       </div>
     </div>

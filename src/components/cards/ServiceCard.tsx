@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import { MovingBorder } from '../ui/moving-border'
 
 const ServiceCard = ({ h1, p1, p2, imgSrc }: { h1: string, p1: string, p2: string, imgSrc: string }) => {
   return (
@@ -18,7 +17,6 @@ const ServiceCard = ({ h1, p1, p2, imgSrc }: { h1: string, p1: string, p2: strin
         <div className='relative w-full h-full'>
           <Image src={imgSrc} alt="demo" layout="fill" objectFit="cover" className="rounded-xl" />
         </div>
-
       </section>
     </div>
   )

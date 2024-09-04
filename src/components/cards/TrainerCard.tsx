@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TrainerCard = ({ trainerImg, trainerName }: { trainerImg: string, trainerName: string }) => {
   return (
-    <div className='flex flex-col items-center h-[20rem] w-[17rem] rounded-2xl   bg-[#1D1D1D]'>
+    <div className='flex flex-col items-center h-[21rem] w-[17rem] rounded-2xl   bg-[#1D1D1D]'>
 
       <div className=' w-full h-full flex flex-col items-center justify-center '>
         <Image
