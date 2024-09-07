@@ -1,4 +1,4 @@
-# Fitmaker: Your fitness journey, your way.
+# Strong: Your fitness journey, your way.
 
 
 
