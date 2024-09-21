@@ -3,7 +3,7 @@ import ServiceCard from './cards/ServiceCard'
 import Image from 'next/image'
 import { BorderBeam } from './magicui/border-beam'
 
-const Services = () => {
+const Services = () => { 
   return (
     <>
 
