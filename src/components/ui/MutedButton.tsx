@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const MutedButton = ({ text, w }: { text: string, w?: string }) => {
+const MutedButton = ({ text, className }: { text: string; className?: string }) => {
   return (
-    <button className={`border-[#a14219] bg-[#1d1d1d] border-2 lg:px-[1rem] lg:py-[.5rem] rounded-full text-xl m-[1rem] w-${w} md:text-sm md:px-[.5rem]`}>
-      <div className='rounded-xl'>{text}</div>
+    <button
+      className={`border-[#a14219] border-2 bg-[#1d1d1d] text-white rounded-full px-6 py-2 text-lg md:text-sm hover:bg-[#a14219] transition-all ${className}`}
+    >
+      {text}
     </button>
-  )
-}
+  );
+};
 
-export default MutedButton
+export default MutedButton;

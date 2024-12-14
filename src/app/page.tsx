@@ -15,13 +15,13 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Highlights />
-      <Services />
+      {/* <Services />
       <Plans />
       <Tools />
       <Reviews />
       <Trainers />
       <BlogPost />
-      <Footer />
+      <Footer /> */}
 
 
 
